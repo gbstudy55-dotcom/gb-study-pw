@@ -1,0 +1,8 @@
+[
+  {"title":"NEET Hindi","subtitle":"Biology • Physics • Chemistry","category":"NEET","icon":"🧬","accent":"violet","description":"Hindi-medium NEET preparation, chapter-wise classes and practice.","url":"#"},
+  {"title":"Bihar Board Class 12","subtitle":"Science • Arts • Commerce","category":"Bihar Board","icon":"📚","accent":"blue","description":"Board-focused classes, revision notes and exam practice.","url":"#"},
+  {"title":"Bihar Board Class 11","subtitle":"Build strong basics","category":"Bihar Board","icon":"⚗️","accent":"teal","description":"Class 11 concepts and chapter-wise learning resources.","url":"#"},
+  {"title":"Class 9–10 Foundation","subtitle":"Maths • Science • English","category":"Foundation","icon":"🚀","accent":"orange","description":"Strengthen fundamentals with structured learning.","url":"#"},
+  {"title":"Doubt & Practice Zone","subtitle":"Questions • Revision • Tests","category":"Practice","icon":"🎯","accent":"pink","description":"A place to add your own quizzes, tests and revision links.","url":"#"},
+  {"title":"Study Notes Library","subtitle":"PDFs • Short notes • Formulae","category":"Resources","icon":"📝","accent":"green","description":"Organize your own notes and downloadable study materials.","url":"#"}
+]

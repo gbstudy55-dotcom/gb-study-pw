@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#100d1d"><meta name="description" content="GB STUDY — learn smarter with classes, notes and practice.">
+  <title>GB STUDY — Learn. Practice. Achieve.</title>
+  <link rel="icon" href="/assets/gb-study-icon.png" type="image/png"><link rel="apple-touch-icon" href="/assets/icon-192.png">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="GB STUDY home"><img src="/assets/gb-study-logo.svg" alt="GB STUDY logo"><span>GB <b>STUDY</b><small>LEARN • PRACTICE • ACHIEVE</small></span></a>
+    <nav class="desktop-nav"><a class="active" href="#home">Home</a><a href="#courses">Courses</a><a href="#resources">Resources</a><a href="#about">About</a></nav>
+    <a class="telegram-top" href="https://t.me/GBFreestudy" target="_blank" rel="noopener">✈ <span>Join Telegram</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  </header>
+  <nav class="mobile-nav" id="mobileNav"><a href="#home">Home</a><a href="#courses">Courses</a><a href="#resources">Resources</a><a href="#about">About</a></nav>
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> YOUR LEARNING SPACE</div>
+        <h1>Dream big.<br><span>Study smarter.</span></h1>
+        <p class="hero-desc">Welcome to GB STUDY — your space for classes, study materials, revision and focused preparation.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#courses">Explore courses <span>↗</span></a><a class="btn btn-quiet" href="https://t.me/GBFreestudy" target="_blank" rel="noopener">Join our community</a></div>
+        <div class="hero-stats"><div><strong>Learn</strong><span>at your pace</span></div><i></i><div><strong>Practice</strong><span>every chapter</span></div><i></i><div><strong>Achieve</strong><span>your goals</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Learning illustration"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="float-card float-top"><span class="float-icon">✦</span><span><b>Keep going!</b><small>Small steps, big goals</small></span></div><div class="book-stack"><div class="book book-back"></div><div class="book book-mid"></div><div class="book book-front"><span>GB</span><b>STUDY</b><small>YOUR NEXT CHAPTER</small></div><div class="spark spark-a">✦</div><div class="spark spark-b">✧</div></div><div class="float-card float-bottom"><span class="check-icon">✓</span><span><b>Ready to learn?</b><small>Your next step starts here</small></span></div></div>
+    </section>
+    <section class="quick-strip wrap"><div><span class="quick-symbol">▤</span><span><b>Learning resources</b><small>Keep materials organized</small></span></div><div><span class="quick-symbol">◎</span><span><b>Focused preparation</b><small>Build concepts step by step</small></span></div><div><span class="quick-symbol">✧</span><span><b>Made for learners</b><small>A simple study experience</small></span></div></section>
+    <section class="courses-section wrap" id="courses"><div class="section-heading"><div><div class="eyebrow">FIND YOUR PATH</div><h2>Explore <span>learning</span></h2><p>Choose a learning area and continue your journey.</p></div><div class="course-count"><b id="courseCount">06</b><span>LEARNING AREAS</span></div></div>
+      <div class="filter-row"><div class="search-box"><span>⌕</span><input id="courseSearch" type="search" placeholder="Search courses..." aria-label="Search courses"></div><div class="filter-pills" id="filterPills"><button class="filter active" data-filter="All">All</button><button class="filter" data-filter="NEET">NEET</button><button class="filter" data-filter="Bihar Board">Bihar Board</button><button class="filter" data-filter="Foundation">Foundation</button><button class="filter" data-filter="Resources">Resources</button></div></div>
+      <div class="course-grid" id="courseGrid"><div class="loading">Loading learning areas…</div></div>
+    </section>
+    <section class="resources-section wrap" id="resources"><div class="resource-panel"><div class="resource-icon">✧</div><div><div class="eyebrow">YOUR STUDY TOOLKIT</div><h2>One step at a time.</h2><p>Add your own PDFs, lecture links, practice tests and revision material to make this space truly yours.</p></div><a class="btn btn-light" href="#courses">Browse learning areas <span>↗</span></a></div></section>
+    <section class="about-section wrap" id="about"><div class="about-mark">GB<span>.</span></div><div><div class="eyebrow">ABOUT GB STUDY</div><h2>A little progress, <span>every day.</span></h2><p>GB STUDY is a learning hub designed to help students find their courses and study resources in one clear, easy-to-use place.</p></div><a href="https://t.me/GBFreestudy" target="_blank" rel="noopener" class="text-link">Connect on Telegram ↗</a></section>
+  </main>
+  <footer class="footer"><a class="footer-brand" href="#home"><img src="/assets/gb-study-logo.svg" alt=""><b>GB STUDY</b></a><span>Learn with focus. Grow with confidence.</span><span>© <span id="year"></span> GB STUDY</span></footer>
+  <div class="tg-overlay" id="tgOverlay" role="dialog" aria-modal="true" aria-labelledby="tgTitle" hidden><div class="tg-modal"><button class="modal-close" id="modalClose" aria-label="Close">×</button><img src="/assets/gb-study-logo.svg" alt="GB STUDY logo"><div class="eyebrow">STAY IN THE LOOP</div><h2 id="tgTitle">Join GB STUDY</h2><p>Get study updates and announcements from our Telegram community.</p><a class="btn btn-primary modal-join" href="https://t.me/GBFreestudy" target="_blank" rel="noopener">Join Telegram <span>↗</span></a><button class="later-btn" id="modalLater">Maybe later</button></div></div>
+  <script src="/app.js" defer></script>
+</body></html>
